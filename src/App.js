@@ -33,14 +33,9 @@ function App() {
     setCreatedExpense(false)
   }
     
-  }, [expense])
+  }, [expense,expenses, createdExpense,remaining])
 
-  // function to delete an expense
-
-  /* const deleteExpense = id => {
-    const newExpenses = expenses.filter(expense => expense.id !== id)
-    setExpenses(newExpenses)
-  } */
+  
 
   return (
     <div className="container">

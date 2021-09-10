@@ -24,7 +24,7 @@ const Form = ({setExpense,setCreatedExpense}) => {
             cost : cost,
             id : shortid.generate()
         }
-        console.log(purchase)
+        
          //we move the expense information to the main component
         setExpense(purchase)
         setCreatedExpense(true)
